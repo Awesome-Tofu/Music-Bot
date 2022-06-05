@@ -178,13 +178,10 @@ Click on the given inline buttons to know all the information about the Bot !!""
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📨 Support", url=f"https://t.me/{SUPPORT}"),
-                    InlineKeyboardButton("📨 Updates", url=f"https://t.me/{UPDATE}")
+                    InlineKeyboardButton("📨 Support", url=f"https://t.me/{SUPPORT}")
                 ],[
                     InlineKeyboardButton("👤 Owner", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("🎸 Assistant", url=f"https://t.me/{ASSUSERNAME}")
-                ],[
-                    InlineKeyboardButton("🤖 Source Code", url="https://github.com/UnknownMortal/M8N-Music-Bot")
                 ],[
                     InlineKeyboardButton("⬅️ Back", callback_data="cbhome")
                 ],
